@@ -1,0 +1,139 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  font-size: 22px;
+}
+
+ul {
+  font-size: 22px;
+}
+
+/* Home Styles */
+.home {
+  position: absolute;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+.intro-text {
+  text-align: center;
+}
+
+.intro-text h1 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 5px;
+
+  z-index: 10;
+  position: relative;
+  line-height: 85px;
+  top: 7%;
+}
+
+.intro-text h2 {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  margin-bottom: -17px;
+  z-index: 10;
+  position: relative;
+  line-height: 85px;
+  top: 5%;
+}
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #031018;
+  padding-top: 50px;
+}
+
+header {
+  background-color: none;
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
+.nav-background {
+  height: 50px;
+}
+.top-bar {
+  background: #031018;
+}
+.top-bar-section ul li {
+  background: #031018;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: #031018;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+  background: #172F3E;
+}
+
+.contain-to-grid {
+  z-index: 9999;
+  position: fixed;
+  background: #031018;
+}
+.contain-to-grid .top-bar{
+  max-width: 100%;
+}
+
+.picture {
+  margin-left: auto;
+  margin-right: auto;
+  top: 10%;
+  width: 300px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
+
+/* About Styles */
+#about {
+  padding: 0px 20px;
+  width: 100%;
+}
+
+#about-titles {
+  margin-left: 6%;
+}
+
+.about-information{
+  margin-left: 6%;
+  margin-right: 2%;
+}
+
+#arrow {
+  color: #fff;
+  font-size: 10em;
+}
+
+/* About me Section */
+#languages {
+  margin-left: 5%;
+  list-style-type: decimal;
+}
