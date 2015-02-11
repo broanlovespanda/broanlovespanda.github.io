@@ -137,3 +137,12 @@ header {
   margin-left: 5%;
   list-style-type: decimal;
 }
+
+/* Projects */
+#projects {
+  width: 100%;
+}
+
+#project-titles {
+  margin-left: 6%;
+}
