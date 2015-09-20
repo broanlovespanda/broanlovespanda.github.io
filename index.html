@@ -3,33 +3,35 @@
   <head>
     <title> Brian Singer </title>
     <link rel='stylesheet' href='stylesheets/normalize.css' />
-    <link rel='stylesheet' href='stylesheets/foundation.min.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel='stylesheet' href='stylesheets/index.css' />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div class="contain-to-grid">
-      <header class="nav-background">
-          <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
-            <ul class="title-area">
-              <li class="name">
-                <h1><a href="#">Brian Singer</a></h1>
-              </li>
-            </ul>
+    <!-- Navigation
+    ==========================================-->
+    <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#tf-home">Brian Singer</a>
+        </div>
 
-            <section class="top-bar-section">
-              <!-- Right Nav Section -->
-              <ul class="right">
-                <li><a href="#particles">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <!-- <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Contact</a></li> -->
-              </ul>
-
-            </section>
-          </nav>
-      </header>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#tf-howitworks" class="page-scroll">About</a></li>
+            <li><a href="#tf-geniuses" class="page-scroll">Projects</a></li>
+            <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <div id="particles">
       <div class="home">
         <div class="row intro-text">
@@ -83,13 +85,21 @@
         </div>
       </div>
     </div>
-
-    <script src="js/modernizr.js"></script>
+    <div class="row" id="projects">
+      <h1> Projects </h1>
+      <div class="project">
+        <div class="left preview">
+          <img src="images/jGader.tiff" alt="">
+        </div>
+        <div class="right project-info">
+          <h2>JGrader</h2>
+          <p> </p>
+        </div>
+      </div>
+    </div>
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/fastclick.js"></script>
     <script src="js/particles.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/foundation.topbar.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>

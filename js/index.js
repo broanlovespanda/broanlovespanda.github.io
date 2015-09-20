@@ -53,3 +53,17 @@ $('a').click(function() {
     }, 500);
     return false;
 });
+
+$(window).bind('scroll', function() {
+  var navHeight = $(window).height() - 400;
+  if ($(window).scrollTop() > navHeight) {
+    $('.navbar-default').addClass('on');
+  } else {
+    $('.navbar-default').removeClass('on');
+  }
+});
+
+$('body').scrollspy({
+  target: '.navbar-default',
+  offset: 80
+});
