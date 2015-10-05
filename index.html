@@ -2,6 +2,7 @@
 <html>
   <head>
     <title> Brian Singer </title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='stylesheets/normalize.css' />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel='stylesheet' href='stylesheets/index.css' />
@@ -38,13 +39,13 @@
           <h1>Mixing Creativity<br>& Innovation</h1>
           <h2>Highschool Developer</h2>
         </div>
-        <div class="row picture" style="background-image: url(images/Brian_Picture.png)"></div>
+<!--        <div class="row picture" style="background-image: url(images/Brian_Picture.png)"></div>-->
         <div class="row">
           <a href="#about" class="fa fa-angle-down arrow" id="arrow"></a>
         </div>
       </div>
     </div>
-    <div id="about">
+    <div id="about" class="row section">
       <h1> About </h1>
       <div id="about-titles">
         <h2> Description: </h2>
@@ -85,15 +86,31 @@
         </div>
       </div>
     </div>
-    <div class="row" id="projects">
+    <div class="row section" id="projects">
       <h1> Projects </h1>
-      <div class="project">
+      <div class="project row">
         <div class="left preview">
-          <img src="images/jGader.tiff" alt="">
+          <img src="images/jGader.jpeg" alt="">
         </div>
-        <div class="right project-info">
-          <h2>JGrader</h2>
-          <p> </p>
+        <div class="project-info">
+          <h2>jGrader</h2>
+          <h3>Description:</h3>
+          <p> jGrader is a cloud based grading system designed for use within a high school AP Computer Science program. The system allows teachers to easily collect, grade, and provide feedback on assignments. Teachers can execute code submitted by their students directly in their browsers. Over 100 teachers and 600 students use the website. </p>
+          <h3>How I built this website: </h3>
+          <p> jGrader.com uses a node.js express stack, the database is mySQL and the frontend uses the EJS templating engine with standard javascript (jquery) and CSS. The private git repository is on www.github.com. I have spent over 200 hours on this project. </p>
+        </div>
+      </div>
+      <hr>
+      <div class="project row">
+        <div class="left preview">
+          <img src="images/jGader.jpeg" alt="">
+        </div>
+        <div class="project-info">
+          <h2>Process Watch</h2>
+          <h3>Description:</h3>
+          <p> jGrader is a cloud based grading system designed for use within a high school AP Computer Science program. The system allows teachers to easily collect, grade, and provide feedback on assignments. Teachers can execute code submitted by their students directly in their browsers. Over 100 teachers and 600 students use the website. </p>
+          <h3>How I built this website: </h3>
+          <p> jGrader.com uses a node.js express stack, the database is mySQL and the frontend uses the EJS templating engine with standard javascript (jquery) and CSS. The private git repository is on www.github.com. I have spent over 200 hours on this project. </p>
         </div>
       </div>
     </div>

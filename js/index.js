@@ -1,6 +1,6 @@
 particlesJS('particles', {
   particles: {
-    color: '#178ec9',
+    color: '#448AFF',
     shape: 'circle', // "circle", "edge" or "triangle"
     opacity: 1,
     size: 15,
@@ -9,7 +9,7 @@ particlesJS('particles', {
     line_linked: {
       enable_auto: true,
       distance: 300,
-      color: '#178ec9',
+      color: '#448AFF',
       opacity: 1,
       width: 1,
       condensed_mode: {
@@ -61,9 +61,4 @@ $(window).bind('scroll', function() {
   } else {
     $('.navbar-default').removeClass('on');
   }
-});
-
-$('body').scrollspy({
-  target: '.navbar-default',
-  offset: 80
 });
