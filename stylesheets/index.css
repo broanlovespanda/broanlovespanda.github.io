@@ -26,8 +26,8 @@ ul {
 	transition: all 0.8s;
 }
 #tf-menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	background-color: #455A64;
+	border-color: #455A64;
 }
 #tf-menu a.navbar-brand {
   text-transform: uppercase;
@@ -36,7 +36,7 @@ ul {
   font-weight: 500;
 }
 #tf-menu a.navbar-brand:hover {
-  color: #FDE500;
+  color: #FFC107;
 }
 #tf-menu.navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
@@ -71,6 +71,10 @@ border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
   background-color: #FFF;
+}
+.main-container {
+  padding-top: 55px;
+  margin-left: 35px;
 }
 /* Home Styles */
 .home {
