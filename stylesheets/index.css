@@ -2,15 +2,15 @@ body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
-
 a {
   color: #00B7FF;
 }
-
+hr {
+  border-color: #455A64;
+}
 p {
   font-size: 22px;
 }
-
 ul {
   font-size: 22px;
 }
@@ -101,7 +101,12 @@ border-radius: 0;
   line-height: 85px;
   top: 7%;
 }
-
+.intro-text p {
+  color: #818F95;
+  text-weight: 500; 
+  padding-top: 50px;
+  margin: 0 15% 0 15%;
+}
 .intro-text h2 {
   color: #ffffff;
   font-size: 35px;
@@ -181,3 +186,6 @@ border-radius: 0;
 .project-info > * {
   margin: 0 0 10px 20px; 
 }
+.tools div {
+  margin-left: 40px;
+  margin-right: 20px;
