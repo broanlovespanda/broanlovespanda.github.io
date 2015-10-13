@@ -193,3 +193,10 @@ border-radius: 0;
   margin-left: 40px;
   margin-right: 20px;
 }
+@media (max-height: 846px) {
+  .picture {
+    background-size: 40% !important;
+    height: 200px;
+    width: 400px;
+  }
+}
