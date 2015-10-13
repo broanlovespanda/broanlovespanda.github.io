@@ -1,17 +1,24 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
-
 a {
   color: #00B7FF;
 }
-
+hr {
+  border-color: #455A64;
+}
 p {
   font-size: 22px;
 }
-
 ul {
   font-size: 22px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
 /* Navigation */
 #tf-menu {
@@ -19,17 +26,17 @@ ul {
 	transition: all 0.8s;
 }
 #tf-menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
-	border-color: rgba(231, 231, 231, 0);
+	background-color: #455A64;
+	border-color: #455A64;
 }
 #tf-menu a.navbar-brand {
   text-transform: uppercase;
   font-size: 22px;
   color: #fff;
-  font-weight: 900;
+  font-weight: 500;
 }
 #tf-menu a.navbar-brand:hover {
-  color: #FDE500;
+  color: #FFC107;
 }
 #tf-menu.navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
@@ -65,6 +72,10 @@ border-radius: 0;
 .navbar-default .navbar-toggle:hover>.icon-bar {
   background-color: #FFF;
 }
+.main-container {
+  padding-top: 55px;
+  margin-left: 35px;
+}
 /* Home Styles */
 .home {
   position: absolute;
@@ -90,7 +101,12 @@ border-radius: 0;
   line-height: 85px;
   top: 7%;
 }
-
+.intro-text p {
+  color: #818F95;
+  text-weight: 500;
+  padding-top: 50px;
+  margin: 0 15% 0 15%;
+}
 .intro-text h2 {
   color: #ffffff;
   font-size: 35px;
@@ -109,7 +125,7 @@ border-radius: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #031018;
+  background: #455A64;
   padding-top: 50px;
 }
 .picture {
@@ -125,11 +141,11 @@ border-radius: 0;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
 }
-/* About Styles */
-#about {
-  padding: 0px 20px;
+.section {
+  padding: 0 30px 0 30px;
   width: 100%;
 }
+/* About Styles */
 #about-titles {
   margin-left: 6%;
 }
@@ -155,6 +171,28 @@ border-radius: 0;
 #project-titles {
   margin-left: 6%;
 }
+<<<<<<< HEAD
 .project .preview {
   width: 50%;
 }
+=======
+.preview {
+  width: 40%;
+}
+.project>* {
+  display: inline-block;
+}
+.preview img {
+  width: 100%;
+}
+.project-info {
+  width: 55%;
+  padding-left: 2.5%;
+}
+.project-info > * {
+  margin: 0 0 10px 20px;
+}
+.tools div {
+  margin-left: 40px;
+  margin-right: 20px;
+>>>>>>> origin/master
