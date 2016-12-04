@@ -203,3 +203,8 @@ border-radius: 0;
     width: 400px;
   }
 }
+.footer p {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+}
